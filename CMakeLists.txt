@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.6)			
 
-project(CudaOrb)						
+project(FAST)						
 
 set(CPACK_GENERATOR "ZIP")				
 include(CPack)						
@@ -33,11 +33,11 @@ include_directories(
 
 #SET(CUDA_SEPARABLE_COMPILATION ON)
 
-cuda_add_executable(cudaorb ${cuda_sources} ${sources} OPTIONS)
+cuda_add_executable(FAST ${cuda_sources} ${sources} OPTIONS)
 
 
-set_target_properties(cudaorb PROPERTIES
+set_target_properties(FAST PROPERTIES
   COMPILE_FLAGS "${EXTRA_CXX_FLAGS}"			   
 )
 
-target_link_libraries(cudaorb ${CUDA_cudadevrt_LIBRARY} ${OpenCV_LIBS})
+target_link_libraries(FAST ${CUDA_cudadevrt_LIBRARY} ${OpenCV_LIBS})

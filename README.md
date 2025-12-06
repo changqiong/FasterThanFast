@@ -1,6 +1,6 @@
-# z2zncc
+# Faster than Fast
 
-This project aims to efficiently implement ORB-FAST feature detection on embedded GPUs ([paper](https://doi.org/10.48550/arXiv.2506.07164)). Part of the code reference the original [ORB-CUDA](https://github.com/chengwei920412/CUDA-ORB-local_feature) project, including the definition of the orb class, related utilities and CMake files, while our feature-point detection component demonstrates significantly improved acceleration.
+This project aims to efficiently implement ORB-FAST feature detection on embedded GPUs ([paper](https://doi.org/10.48550/arXiv.2506.07164)). Part of the code reference the [ORB-CUDA](https://github.com/chengwei920412/CUDA-ORB-local_feature) project, including the definition of the orb class, related utilities and CMake files, while our feature-point detection component demonstrates significantly improved acceleration.
 
 > Actual performance may vary depending on CUDA architecture and memory bandwidth.
 ---
@@ -9,7 +9,7 @@ This project aims to efficiently implement ORB-FAST feature detection on embedde
 
 <img src="data/test.png" alt="Left Image" width="50%"><img src="data/result.png" alt="Right Image" width="50%">
 
-&emsp;&emsp;&emsp;Input &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Output
+&emsp;&emsp;&emsp;Input &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp Output
 
 ---
 
@@ -77,7 +77,7 @@ FasterThanFast/
 
 ## What to Cite
 
-If you use this code for academic purposes, please cite the following paper:
+If you use this code, please cite the following paper:
 
 ```bibtex
 @article{chang2025faster,

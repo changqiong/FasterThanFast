@@ -161,6 +161,6 @@ void drawKeypoints(orb::OrbData& a, cv::Mat& img, cv::Mat& dst)
       orb::OrbPoint& p = data[i];
       cv::Point center(cvRound(p.x), cvRound(p.y));
       cv::Scalar color(rand() % 255, rand() % 255, rand() % 255);
-      cv::circle(dst, center, 3*MAX(1, MIN(5, log10(p.score))), color);
+      cv::circle(dst, center, MAX(1, MIN(5, log10(p.score))), color);
     }
 }
