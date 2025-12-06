@@ -8,7 +8,7 @@ This project aims to efficiently implement ORB-FAST feature detection on embedde
 ## Input Example
 
 <img src="data/test.png" alt="Left Image" width="40%"><img src="data/result.png" alt="Right Image" width="40%">
-&emsp;&emsp;&emsp;Input  &emsp;&emsp;&emsp;&emsp;&emsp&emsp;&emsp;&emsp&emsp;&emsp;&emsp&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Output
+&emsp;&emsp;&emsp;Input &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Output
 
 ---
 
